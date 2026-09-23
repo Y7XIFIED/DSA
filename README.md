@@ -42,10 +42,7 @@ Make sure the following tools are installed on your machine:
    ```bash
    cd DSA
    ```
-3. Switch between topic branches or stay on `main` to inspect the complete catalog:
-   ```bash
-   git checkout arrays
-   ```
+3. Explore solutions across categorized topic folders directly on `main`.
 
 ## 📂 Project Structure
 
@@ -87,22 +84,21 @@ Every single problem directory follows a strict 7-part engineering standard to e
 6. **Java Solution**: Clean, idiomatic, syntax-highlighted Java code.
 7. **Dry Run & Complexity Analysis**: Step-by-step state table tracing variables alongside rigorous mathematical time and space bounds.
 
-## 🌿 Topic Branches
-To maintain a modular git workflow, work is organized into dedicated topic branches:
-- `main`: Production-ready branch housing global documentation and the progress tracker.
-- `arrays`: Contiguous memory problems, two pointers, prefix sums, and sliding windows.
-- `strings`: String parsing, ASCII/Unicode hashing, and pattern search.
-- `hashing`: Hash maps, frequency tracking, and constant-time lookups.
-- `linkedlist`: Node manipulation, reversals, cycle detection, and merge routines.
-- `stack`: LIFO structures, monotonic stacks, and parentheses validation.
-- `queue`: FIFO structures, double-ended queues, and sliding window max algorithms.
-- `binarysearch`: Logarithmic search space reduction and condition boundaries.
-- `trees`: Binary trees, binary search trees, and hierarchical traversals.
-- `graphs`: Adjacency lists, BFS, DFS, Dijkstra, and topological sort.
-- `dynamicprogramming`: Memoization, tabulation, state transitions, and knapsack variants.
-- `heaps`: Priority queues, min/max heaps, and top-K elements.
-- `recursion`: Self-referential decompositions and divide-and-conquer strategies.
-- `backtracking`: Constraint satisfaction, state restoration, combinations, and permutations.
+## 🌿 Topic Domains
+All problem modules are consolidated directly on the primary `main` branch for easy navigation and seamless access, organized cleanly into distinct algorithmic domains:
+- `Arrays`: Contiguous memory problems, two pointers, prefix sums, and sliding windows.
+- `Strings`: String parsing, ASCII/Unicode hashing, and pattern search.
+- `Hashing`: Hash maps, frequency tracking, and constant-time lookups.
+- `LinkedList`: Node manipulation, reversals, cycle detection, and merge routines.
+- `Stack`: LIFO structures, monotonic stacks, and parentheses validation.
+- `Queue`: FIFO structures, double-ended queues, and sliding window max algorithms.
+- `BinarySearch`: Logarithmic search space reduction and condition boundaries.
+- `Trees`: Binary trees, binary search trees, and hierarchical traversals.
+- `Graphs`: Adjacency lists, BFS, DFS, Dijkstra, and topological sort.
+- `DynamicProgramming`: Memoization, tabulation, state transitions, and knapsack variants.
+- `Heaps`: Priority queues, min/max heaps, and top-K elements.
+- `Recursion`: Self-referential decompositions and divide-and-conquer strategies.
+- `Backtracking`: Constraint satisfaction, state restoration, combinations, and permutations.
 
 ## 📊 Progress Tracker
 
