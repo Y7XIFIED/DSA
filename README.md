@@ -61,6 +61,9 @@ DSA/
 ├── Hashing/
 ├── Heaps/
 ├── LinkedList/
+│   └── AddTwoNumbers/
+│       ├── AddTwoNumbers.java
+│       └── README.md
 ├── Queue/
 ├── Recursion/
 ├── Stack/
@@ -105,5 +108,6 @@ All problem modules are consolidated directly on the primary `main` branch for e
 | # | Problem | Difficulty | Topic | Language | Status | Solution & Notes |
 |---|---|---|---|---|---|---|
 | 1 | Two Sum | Easy | Arrays | Java | Solved | [Solution & Notes](Arrays/TwoSum/README.md) |
+| 2 | Add Two Numbers | Medium | LinkedList | Java | Solved | [Solution & Notes](LinkedList/AddTwoNumbers/README.md) |
 
 <div align="center"><p>Y7XIFIED</p></div>
