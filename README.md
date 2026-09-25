@@ -14,7 +14,7 @@ https://leetcode.com
 
 ## 🎮 How to Control
 Interacting with this repository is straightforward and developer-friendly:
-- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Trees/`, or `DynamicProgramming/` to find categorized challenges.
+- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Strings/`, `LinkedList/`, or `DynamicProgramming/` to find categorized challenges.
 - **Deep-Dive Breakdowns**: Each problem directory contains a dedicated `README.md` featuring problem statements, visual dry run tables, code explanations, and complexity analyses.
 - **Local Compilation**: Compile any solution directly using your terminal with standard Java tooling:
   ```bash
@@ -68,6 +68,9 @@ DSA/
 ├── Recursion/
 ├── Stack/
 ├── Strings/
+│   └── LongestSubstringWithoutRepeatingCharacters/
+│       ├── LongestSubstringWithoutRepeatingCharacters.java
+│       └── README.md
 └── Trees/
 ```
 
@@ -109,5 +112,6 @@ All problem modules are consolidated directly on the primary `main` branch for e
 |---|---|---|---|---|---|---|
 | 1 | Two Sum | Easy | Arrays | Java | Solved | [Solution & Notes](Arrays/TwoSum/README.md) |
 | 2 | Add Two Numbers | Medium | LinkedList | Java | Solved | [Solution & Notes](LinkedList/AddTwoNumbers/README.md) |
+| 3 | Longest Substring Without Repeating Characters | Medium | Strings | Java | Solved | [Solution & Notes](Strings/LongestSubstringWithoutRepeatingCharacters/README.md) |
 
 <div align="center"><p>Y7XIFIED</p></div>
