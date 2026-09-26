@@ -14,7 +14,7 @@ https://leetcode.com
 
 ## 🎮 How to Control
 Interacting with this repository is straightforward and developer-friendly:
-- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Strings/`, `LinkedList/`, `BinarySearch/`, or `Recursion/` to find categorized challenges.
+- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Strings/`, `Hashing/`, `LinkedList/`, `BinarySearch/`, or `Recursion/` to find categorized challenges.
 - **Deep-Dive Breakdowns**: Each problem directory contains a dedicated `README.md` featuring problem statements, visual dry run tables, code explanations, and complexity analyses.
 - **Local Compilation**: Compile any solution directly using your terminal with standard Java tooling:
   ```bash
@@ -62,6 +62,9 @@ DSA/
 ├── DynamicProgramming/
 ├── Graphs/
 ├── Hashing/
+│   └── EvaluateBracketPairs/
+│       ├── EvaluateBracketPairs.java
+│       └── README.md
 ├── Heaps/
 ├── LinkedList/
 │   └── AddTwoNumbers/
@@ -84,7 +87,7 @@ DSA/
 - **Language**: Java 17+ (LTS)
 - **Version Control**: Git & GitHub
 - **Development Tools**: IntelliJ IDEA, Visual Studio Code
-- **Algorithmic Patterns**: Two Pointers, Sliding Window, Binary Search Partitioning, Monotonic Stack, Fast & Slow Pointers, Recursive Descent Parsing, DFS, BFS, Divide and Conquer, Dynamic Programming
+- **Algorithmic Patterns**: Two Pointers, Sliding Window, Binary Search Partitioning, Hash Map Indexing, Monotonic Stack, Fast & Slow Pointers, Recursive Descent Parsing, DFS, BFS, Divide and Conquer, Dynamic Programming
 
 ## 📐 Repository Standards
 Every single problem directory follows a strict 7-part engineering standard to ensure consistent quality:
@@ -100,7 +103,7 @@ Every single problem directory follows a strict 7-part engineering standard to e
 All problem modules are consolidated directly on the primary `main` branch for easy navigation and seamless access, organized cleanly into distinct algorithmic domains:
 - `Arrays`: Contiguous memory problems, two pointers, prefix sums, and sliding windows.
 - `Strings`: String parsing, ASCII/Unicode hashing, and pattern search.
-- `Hashing`: Hash maps, frequency tracking, and constant-time lookups.
+- `Hashing`: Hash maps, frequency tracking, bracket pair evaluations, and constant-time lookups.
 - `LinkedList`: Node manipulation, reversals, cycle detection, and merge routines.
 - `Stack`: LIFO structures, monotonic stacks, and parentheses validation.
 - `Queue`: FIFO structures, double-ended queues, and sliding window max algorithms.
@@ -121,5 +124,6 @@ All problem modules are consolidated directly on the primary `main` branch for e
 | 3 | Longest Substring Without Repeating Characters | Medium | Strings | Java | Solved | [Solution & Notes](Strings/LongestSubstringWithoutRepeatingCharacters/README.md) |
 | 4 | Median of Two Sorted Arrays | Hard | BinarySearch | Java | Solved | [Solution & Notes](BinarySearch/MedianOfTwoSortedArrays/README.md) |
 | 1096 | Brace Expansion II | Hard | Recursion | Java | Solved | [Solution & Notes](Recursion/BraceExpansionII/README.md) |
+| 1807 | Evaluate the Bracket Pairs of a String | Medium | Hashing | Java | Solved | [Solution & Notes](Hashing/EvaluateBracketPairs/README.md) |
 
 <div align="center"><p>Y7XIFIED</p></div>
