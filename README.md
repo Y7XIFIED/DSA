@@ -14,7 +14,7 @@ https://leetcode.com
 
 ## 🎮 How to Control
 Interacting with this repository is straightforward and developer-friendly:
-- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Strings/`, `LinkedList/`, or `Recursion/` to find categorized challenges.
+- **Topic Navigation**: Browse through individual topic folders such as `Arrays/`, `Strings/`, `LinkedList/`, `BinarySearch/`, or `Recursion/` to find categorized challenges.
 - **Deep-Dive Breakdowns**: Each problem directory contains a dedicated `README.md` featuring problem statements, visual dry run tables, code explanations, and complexity analyses.
 - **Local Compilation**: Compile any solution directly using your terminal with standard Java tooling:
   ```bash
@@ -56,6 +56,9 @@ DSA/
 │       └── TwoSum.java
 ├── Backtracking/
 ├── BinarySearch/
+│   └── MedianOfTwoSortedArrays/
+│       ├── MedianOfTwoSortedArrays.java
+│       └── README.md
 ├── DynamicProgramming/
 ├── Graphs/
 ├── Hashing/
@@ -81,7 +84,7 @@ DSA/
 - **Language**: Java 17+ (LTS)
 - **Version Control**: Git & GitHub
 - **Development Tools**: IntelliJ IDEA, Visual Studio Code
-- **Algorithmic Patterns**: Two Pointers, Sliding Window, Monotonic Stack, Fast & Slow Pointers, Recursive Descent Parsing, DFS, BFS, Divide and Conquer, Dynamic Programming
+- **Algorithmic Patterns**: Two Pointers, Sliding Window, Binary Search Partitioning, Monotonic Stack, Fast & Slow Pointers, Recursive Descent Parsing, DFS, BFS, Divide and Conquer, Dynamic Programming
 
 ## 📐 Repository Standards
 Every single problem directory follows a strict 7-part engineering standard to ensure consistent quality:
@@ -101,7 +104,7 @@ All problem modules are consolidated directly on the primary `main` branch for e
 - `LinkedList`: Node manipulation, reversals, cycle detection, and merge routines.
 - `Stack`: LIFO structures, monotonic stacks, and parentheses validation.
 - `Queue`: FIFO structures, double-ended queues, and sliding window max algorithms.
-- `BinarySearch`: Logarithmic search space reduction and condition boundaries.
+- `BinarySearch`: Logarithmic search space reduction, condition boundaries, and partition search.
 - `Trees`: Binary trees, binary search trees, and hierarchical traversals.
 - `Graphs`: Adjacency lists, BFS, DFS, Dijkstra, and topological sort.
 - `DynamicProgramming`: Memoization, tabulation, state transitions, and knapsack variants.
@@ -116,6 +119,7 @@ All problem modules are consolidated directly on the primary `main` branch for e
 | 1 | Two Sum | Easy | Arrays | Java | Solved | [Solution & Notes](Arrays/TwoSum/README.md) |
 | 2 | Add Two Numbers | Medium | LinkedList | Java | Solved | [Solution & Notes](LinkedList/AddTwoNumbers/README.md) |
 | 3 | Longest Substring Without Repeating Characters | Medium | Strings | Java | Solved | [Solution & Notes](Strings/LongestSubstringWithoutRepeatingCharacters/README.md) |
+| 4 | Median of Two Sorted Arrays | Hard | BinarySearch | Java | Solved | [Solution & Notes](BinarySearch/MedianOfTwoSortedArrays/README.md) |
 | 1096 | Brace Expansion II | Hard | Recursion | Java | Solved | [Solution & Notes](Recursion/BraceExpansionII/README.md) |
 
 <div align="center"><p>Y7XIFIED</p></div>
